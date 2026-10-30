@@ -5,7 +5,7 @@
 ## 文件说明
 
 - `SKILL.md`：触发规则与核心流程
-- `assets/reference-lost-wind-chime.png`：用户选定的《失落的風鈴》**真实原图**，在支持的图像工具中作为风格/构图参考图输入
+- `assets/reference-lost-wind-chime.jpg`：用户选定的《失落的風鈴》**真实原图**，在支持的图像工具中作为风格/构图参考图输入
 - `references/reference-layout.md`：原图页面布局测绘
 - `references/master-prompt.md`：完整绘图母提示词
 - `references/quality-gates.md`：验收标准
