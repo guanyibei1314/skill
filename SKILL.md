@@ -10,9 +10,9 @@ metadata:
 
 ## 核心目标（不可弱化）
 
-用户要的不是泛用动漫分镜表，而是**看起来像 `assets/reference-lost-wind-chime.png` 这张图出自同一动画制作组、同一版式体系的开发板**。新作品可以替换主角、动物、背景、剧情和道具，但应最大限度保留原图的纸张、笔触、信息层次、角色比例、色彩感觉及红框分镜组织。
+用户要的不是泛用动漫分镜表，而是**看起来像 `assets/reference-lost-wind-chime.jpg` 这张图出自同一动画制作组、同一版式体系的开发板**。新作品可以替换主角、动物、背景、剧情和道具，但应最大限度保留原图的纸张、笔触、信息层次、角色比例、色彩感觉及红框分镜组织。
 
-**首要动作：打开/查看 `assets/reference-lost-wind-chime.png`。** 这张内置原图是最高优先级的视觉依据。不能用网络上的普通 storyboard、情绪板、九宫格配图、无关动漫图代替它。详细定位见 `references/reference-layout.md`。
+**首要动作：打开/查看 `assets/reference-lost-wind-chime.jpg`。** 这张内置原图是最高优先级的视觉依据。不能用网络上的普通 storyboard、情绪板、九宫格配图、无关动漫图代替它。详细定位见 `references/reference-layout.md`。
 
 ## 最简调用
 
@@ -43,7 +43,7 @@ metadata:
 - 第 8 格优先为宏观情绪收束；若用户剧情不适合夕阳，不要机械添加日落，但应保留广角的电影余韵。
 
 ### 2. 读取原图并建立可视参照
-- 读取本 Skill 的 `assets/reference-lost-wind-chime.png`（原尺寸 992×1586）。
+- 读取本 Skill 的 `assets/reference-lost-wind-chime.jpg`（原尺寸 992×1586）。
 - **有参考图输入能力时：把此图作为显式 style-and-layout reference 提交给图像工具**，要求 `same page architecture, drawing craftsmanship, annotation rhythm, paper texture, color harmony and storyboard arrangement; replace only narrative content and newly designed character identities`。如有权重设置，以“结构/画风高、复制人物和剧情低”为原则；不要凭空编造工具参数。
 - 没有参考图输入能力时：首先观察原图，读取 `references/reference-layout.md` + `references/master-prompt.md`，把关键版式和画风规则完整写入生成提示；不要声称“已使用图像参考”。
 
@@ -69,7 +69,7 @@ metadata:
 
 ## Skill 文件入口
 
-- `assets/reference-lost-wind-chime.png`：**本 Skill 最核心的原作视觉参考**，打包时必须保留。
+- `assets/reference-lost-wind-chime.jpg`：**本 Skill 最核心的原作视觉参考**，打包时必须保留。
 - `references/reference-layout.md`：原图按像素位置拆解与布局骨架。
 - `references/master-prompt.md`：可直接替换角色/故事的一体化绘图提示词。
 - `references/quality-gates.md`：结果与原图的逐项核验。
